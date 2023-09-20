@@ -19,6 +19,9 @@ public class VisualFX : ScriptableObject
     // 3: 
     public GameObject Spawn(Transform t)
     {
+        // What is the int for?
+
+
         // Do we want the visual effect to be childed to the parent and follow it, or simply occur at its location?
         // Create a Transform which is the same as a passed-in Transform if the 'attach' bool is switched on, or null if it is switched off
         Transform parent = attach ? t : null;

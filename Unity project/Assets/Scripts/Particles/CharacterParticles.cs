@@ -107,4 +107,14 @@ public class CharacterParticles : MonoBehaviour
             // Remove the particle system after a few seconds, after all particles have died away
             Destroy(go, 3);
     }
+
+    public void Spell()
+    {
+
+    }
+
+    public void Spell2()
+    {
+
+    }
 }
