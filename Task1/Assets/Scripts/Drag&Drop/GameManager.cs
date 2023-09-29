@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public void Start()
+    {
+        // Make the screen landscape from the moment the game starts
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
+    }
+
     // Update is called once per frame
     void Update()
     {

@@ -19,7 +19,7 @@ public class SpellCast : MonoBehaviour
     public Animator animator;
     public CharacterParticles particles;
 
-    private bool active = false;
+    //private bool active = false;
 
     // Update is called once per frame
     private void Update()
@@ -29,7 +29,7 @@ public class SpellCast : MonoBehaviour
             {
                 // Fire the animation, mark this object as an active spell
                 animator.SetTrigger(animationTrigger);
-                active = true;
+                //active = true;
 
                 // Do the cast effect immediately
                 if (castFX != null) 
